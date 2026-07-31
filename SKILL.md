@@ -101,3 +101,7 @@ Handing off discards working state. Constraints:
   with no context; a summary targets someone who was there. Different artefacts.
 - **Recovering from an error or a failed run.** Handing off carries the failure
   forward with less context to diagnose it. Fix first, hand off after.
+- **Reducing context volume without restarting**: If the context window is crowded or noisy but you do not need a fresh sandbox/session restart → use `chisel` instead.
+- **Filesystem checkpointing/rolling back**: For filesystem-level snapshotting rather than conversational handoffs → use `chronicle-session-memory` instead.
+- **Reducing context volume without restarting**: If the context window is crowded or noisy but you do not need a fresh sandbox/session restart → use `chisel` instead.
+- **Filesystem checkpointing/rolling back**: For filesystem-level snapshotting rather than conversational handoffs → use `chronicle-session-memory` instead.
