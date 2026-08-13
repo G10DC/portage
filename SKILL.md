@@ -1,6 +1,6 @@
 ---
 name: portage
-description: Keeps working context lean across long tasks. Before each step, loads only the tools, skills and files that step requires — never the full catalogue. Watches for context drift and, when recall of earlier decisions degrades, writes a handoff document and restarts in a clean agent. Use for long refactors, multi-file edits, many connected servers, "losing the thread", "too much context", "continue in a new session". Never hand off silently; never carry history across the boundary.
+description: Keeps working context lean across long tasks. Before each step, loads only the tools, skills, and files that step needs — never the full catalogue. When recall of earlier decisions degrades, writes a handoff document and restarts in a clean agent. Use for long refactors, multi-file edits, or "losing the thread." Never hand off silently; never carry history across the boundary.
 ---
 
 # portage
